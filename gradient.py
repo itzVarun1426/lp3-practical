@@ -20,7 +20,8 @@ print("--------------------------")
 for i in range(iterations):
 
     gradient = df(x)
-
+    if abs(gradient) < 0.0001:
+        break
     # Update x
     x = x - learning_rate * gradient
 
