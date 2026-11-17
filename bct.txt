@@ -1,0 +1,969 @@
+# GROUP C – BLOCKCHAIN TECHNOLOGY
+
+## PRACTICAL 1: INSTALLATION OF METAMASK AND STUDY SPENDING ETHER PER TRANSACTION
+
+### AIM:
+Installation of MetaMask and study spending Ether per transaction.
+
+### SOFTWARE REQUIRED:
+1. Google Chrome Browser
+2. MetaMask Extension
+3. Sepolia Test Network
+4. Sepolia Etherscan
+
+### CONCEPT:
+Blockchain is a digital record of transactions shared across a network.
+
+MetaMask is a cryptocurrency wallet used to send and receive Ether.
+
+Ethereum is a blockchain platform that supports smart contracts.
+
+Ether (ETH) is the cryptocurrency used on the Ethereum network.
+
+Sepolia is an Ethereum test network used for practising transactions without real money.
+
+Gas is the computational work required to perform a blockchain transaction.
+
+Gas Fee is the fee paid for processing a transaction.
+
+### PROCEDURE:
+
+STEP 1: INSTALL METAMASK
+1. Open Google Chrome.
+2. Visit https://metamask.io/
+3. Click on Download.
+4. Select Chrome and install the MetaMask extension.
+5. Click the MetaMask icon in the browser toolbar.
+
+STEP 2: OPEN METAMASK WALLET
+1. Open MetaMask.
+2. Unlock your existing wallet using your password.
+3. The wallet dashboard will appear.
+4. Observe your account and wallet address.
+
+STEP 3: SELECT SEPOLIA TEST NETWORK
+1. Click the network selector at the top.
+2. Select All Default Networks if required.
+3. Select Sepolia.
+4. Return to the wallet dashboard.
+
+STEP 4: CHECK SEPOLIA ETH BALANCE
+1. Scroll down to the Tokens section.
+2. Find and click the SepoliaETH token.
+3. Check the available balance.
+4. If the balance is zero, obtain test Ether from a Sepolia faucet.
+
+STEP 5: SEND ETHER FROM ACCOUNT 1 TO ACCOUNT 2
+1. Open the SepoliaETH token.
+2. Click Send.
+3. Select Account 2 or enter its wallet address.
+4. Enter 0.001 SepoliaETH.
+5. Click Continue.
+6. Review the transaction details and network fee.
+7. Click Confirm.
+
+STEP 6: VERIFY THE TRANSACTION
+1. After confirmation, click View on Block Explorer.
+2. The transaction will open in Sepolia Etherscan.
+3. Observe the following details:
+   - Transaction Hash
+   - Transaction Status
+   - From Address
+   - To Address
+   - Gas Used
+   - Transaction Fee
+
+### IMPORTANT CONCEPTS:
+
+1. MetaMask: Cryptocurrency wallet used to interact with Ethereum.
+2. Ethereum: Blockchain platform supporting smart contracts.
+3. Ether: Cryptocurrency used on Ethereum.
+4. Sepolia: Ethereum test network.
+5. Wallet Address: Unique address used to send and receive Ether.
+6. Gas: Computational work required for a transaction.
+7. Gas Fee: Fee paid for processing a transaction.
+8. Faucet: Provides free test Ether.
+9. Etherscan: Blockchain explorer used to verify transactions.
+10. Transaction Hash: Unique identification number of a transaction.
+
+### TRANSACTION FEE FORMULA:
+
+Transaction Fee = Gas Used × Gas Price
+
+Gas Used means the computational work consumed by a transaction.
+
+Gas Price means the amount paid per unit of gas.
+
+Transaction Fee is the total fee paid for processing the transaction.
+
+### RESULT:
+Successfully used MetaMask to transfer 0.001 SepoliaETH from Account 1 to Account 2. Verified the transaction using Sepolia Etherscan and observed the transaction status, gas used and transaction fee.
+
+### VIVA QUESTIONS:
+
+Q1. What is MetaMask?
+Ans: MetaMask is a cryptocurrency wallet used to interact with Ethereum.
+
+Q2. What is Ethereum?
+Ans: Ethereum is a blockchain platform that supports smart contracts.
+
+Q3. What is Ether?
+Ans: Ether is the cryptocurrency used on the Ethereum network.
+
+Q4. What is Sepolia?
+Ans: Sepolia is an Ethereum test network used for practice.
+
+Q5. What is Gas?
+Ans: Gas measures the computational work required to execute a transaction.
+
+Q6. What is Gas Fee?
+Ans: It is the fee paid for processing a blockchain transaction.
+
+Q7. What is Etherscan?
+Ans: Etherscan is a blockchain explorer used to view and verify transactions.
+
+Q8. What is a Transaction Hash?
+Ans: It is a unique identification number assigned to a transaction.
+
+Q9. What amount did you transfer?
+Ans: 0.001 SepoliaETH.
+
+Q10. Why did you use Sepolia?
+Ans: To practise transactions using test Ether without spending real money.
+
+### IMPORTANT:
+- No Solidity code is required for this practical.
+- No compilation or deployment is required.
+- Never share your Secret Recovery Phrase or wallet password.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------# GROUP C – BLOCKCHAIN TECHNOLOGY
+
+## PRACTICAL 2: CREATE YOUR OWN WALLET USING METAMASK FOR CRYPTO TRANSACTIONS
+
+### AIM:
+To create a cryptocurrency wallet using MetaMask for performing crypto transactions.
+
+### SOFTWARE REQUIRED:
+1. Google Chrome Browser
+2. MetaMask Extension
+3. Internet Connection
+
+### CONCEPT:
+
+MetaMask is a cryptocurrency wallet used to create and manage Ethereum accounts.
+
+A cryptocurrency wallet allows users to send, receive and manage digital currencies.
+
+A Wallet Address is a unique address used to receive cryptocurrency.
+
+A Password protects access to the wallet.
+
+A Secret Recovery Phrase is a set of 12 words used to recover the wallet if access is lost. It must be kept private.
+
+### PROCEDURE:
+
+STEP 1: OPEN METAMASK WEBSITE
+1. Open Google Chrome.
+2. Visit https://metamask.io/
+3. Click on Download.
+4. Select Chrome to install the MetaMask extension.
+
+STEP 2: CREATE A NEW WALLET
+1. Click the MetaMask extension icon.
+2. Select Create a New Wallet.
+3. Follow the instructions displayed on the screen.
+4. Read and accept the required terms.
+
+STEP 3: SET WALLET PASSWORD
+1. Enter a strong password.
+2. Re-enter the password for confirmation.
+3. Accept the required checkbox.
+4. Click Create a New Wallet.
+
+STEP 4: SAVE SECRET RECOVERY PHRASE
+1. MetaMask displays a Secret Recovery Phrase containing 12 words.
+2. Write down the words in the correct order.
+3. Store the phrase in a safe and private place.
+4. Never share this phrase with anyone.
+
+STEP 5: VERIFY SECRET RECOVERY PHRASE
+1. MetaMask asks you to select or enter the recovery words in the correct order.
+2. Complete the verification.
+3. Click Confirm.
+
+STEP 6: COMPLETE WALLET CREATION
+1. MetaMask confirms that the wallet has been created.
+2. Open the wallet dashboard.
+3. Observe your account name and wallet address.
+4. The wallet is now ready to manage cryptocurrency and perform transactions.
+
+### IMPORTANT CONCEPTS:
+
+1. MetaMask: Cryptocurrency wallet used to interact with Ethereum.
+2. Wallet: Used to manage cryptocurrency.
+3. Wallet Address: Unique address used to send and receive cryptocurrency.
+4. Password: Protects access to the wallet on the device.
+5. Secret Recovery Phrase: 12-word phrase used to recover the wallet.
+6. Private Key: Secret cryptographic key used to control an account.
+7. Cryptocurrency: Digital currency that uses cryptographic technology.
+
+### RESULT:
+Successfully created a cryptocurrency wallet using MetaMask by setting a password, saving and verifying the Secret Recovery Phrase, and accessing the wallet dashboard.
+
+### VIVA QUESTIONS:
+
+Q1. What is MetaMask?
+Ans: MetaMask is a cryptocurrency wallet used to interact with Ethereum.
+
+Q2. What is a cryptocurrency wallet?
+Ans: It is a digital wallet used to manage cryptocurrency accounts and transactions.
+
+Q3. What is a Wallet Address?
+Ans: It is a unique address used to send and receive cryptocurrency.
+
+Q4. What is a Secret Recovery Phrase?
+Ans: It is a set of 12 words used to recover a wallet.
+
+Q5. Why is the Secret Recovery Phrase important?
+Ans: It helps restore access to the wallet if access is lost.
+
+Q6. Can we share our Secret Recovery Phrase?
+Ans: No, it must always be kept private.
+
+Q7. What is a Private Key?
+Ans: It is a secret cryptographic key that provides control over an account.
+
+Q8. What is the purpose of a wallet password?
+Ans: It protects access to the wallet on the device.
+
+Q9. Can MetaMask manage Ethereum accounts?
+Ans: Yes, MetaMask can create and manage Ethereum accounts.
+
+Q10. What is the difference between a wallet address and a password?
+Ans: A wallet address is used to receive cryptocurrency, while a password protects access to the wallet.
+
+### IMPORTANT:
+- No Python or Solidity code is required.
+- No compilation or deployment is required.
+- Keep the Secret Recovery Phrase and password private.
+- Do not create another wallet if your practical demonstration only requires showing an already-created wallet. Follow your instructor's requirement for demonstrating wallet creation.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+# GROUP C – BLOCKCHAIN TECHNOLOGY
+
+## PRACTICAL 3: WRITE A SMART CONTRACT ON A TEST NETWORK FOR BANK ACCOUNT OPERATIONS
+
+### AIM:
+To write and deploy a smart contract for a bank account to perform the following operations:
+1. Deposit Money
+2. Withdraw Money
+3. Show Balance
+
+### SOFTWARE REQUIRED:
+1. Google Chrome
+2. Remix IDE
+3. MetaMask (if using a test network)
+
+### CONCEPT:
+
+Blockchain is a distributed digital ledger that stores transactions.
+
+Smart Contract is a program stored on a blockchain that executes instructions automatically.
+
+Solidity is a programming language used to write Ethereum smart contracts.
+
+Remix IDE is an online development environment used to write, compile and deploy Solidity smart contracts.
+
+Deposit means adding Ether to the bank account.
+
+Withdraw means removing Ether from the bank account.
+
+Balance means the total amount of Ether stored in the smart contract.
+
+### STEP 1: OPEN REMIX IDE
+
+1. Open Google Chrome.
+2. Visit https://remix.ethereum.org/
+3. Remix IDE will open.
+4. In the File Explorer, open the contracts folder.
+5. Click the New File icon.
+6. Create a file named BankAccount.sol.
+
+WHY?
+Remix IDE is used to write, compile and deploy Solidity smart contracts.
+The .sol extension represents a Solidity source-code file.
+
+### STEP 2: WRITE THE SOLIDITY CODE
+
+Copy and paste this complete code into BankAccount.sol.
+
+```solidity
+// SPDX-License-Identifier: MIT
+// Specifies the open-source license of this smart contract.
+
+pragma solidity ^0.8.0;
+// Specifies the Solidity compiler version.
+
+contract BankAccount {
+    // Creates a smart contract named BankAccount.
+
+    uint public balance;
+    // Stores the bank account balance in Wei.
+    // Public allows Remix to automatically provide a balance-reading function.
+
+    function deposit() public payable {
+        // Allows users to deposit Ether into the smart contract.
+        // Payable allows this function to receive Ether.
+
+        balance += msg.value;
+        // Adds the deposited Ether amount to the account balance.
+        // msg.value represents the amount of Ether sent with the transaction.
+    }
+
+    function withdraw(uint amount) public {
+        // Allows the user to withdraw the specified amount in Wei.
+
+        require(amount <= balance, "Insufficient balance");
+        // Checks whether sufficient balance is available.
+        // Stops the withdrawal if the requested amount is too high.
+
+        balance -= amount;
+        // Subtracts the withdrawal amount from the stored balance.
+
+        (bool success, ) = payable(msg.sender).call{value: amount}("");
+        // Sends the requested Ether to the account that called this function.
+        // msg.sender represents the caller's wallet address.
+
+        require(success, "Transfer failed");
+        // Checks whether the Ether transfer was successful.
+    }
+
+    function showBalance() public view returns (uint) {
+        // Reads the current balance without changing blockchain data.
+
+        return balance;
+        // Returns the stored bank account balance in Wei.
+    }
+}
+```
+
+### STEP 3: COMPILE THE SMART CONTRACT
+
+1. Click the Solidity Compiler icon on the left side.
+2. Select compiler version 0.8.x.
+3. Make sure the compiler version matches the pragma statement.
+4. Click Compile BankAccount.sol.
+5. A green tick indicates successful compilation.
+
+WHY DO WE COMPILE?
+
+Compilation converts Solidity source code into bytecode that the blockchain can execute.
+
+If an error appears, check the code and compiler version.
+
+### STEP 4: DEPLOY THE SMART CONTRACT
+
+1. Click the Deploy & Run Transactions icon.
+2. Select Remix VM (Cancun) under Environment.
+3. Select BankAccount from the contract dropdown.
+4. Click Deploy.
+5. The deployed contract appears under Deployed Contracts.
+
+WHY DO WE DEPLOY?
+
+Deployment places the compiled smart contract on the selected blockchain environment so that we can execute its functions.
+
+Note: Remix VM is a simulated blockchain environment for practice. For an actual test-network deployment, connect MetaMask and select the required test network.
+
+### STEP 5: DEPOSIT MONEY
+
+1. Under Deployed Contracts, find the VALUE field.
+2. Enter 2.
+3. Select Ether from the unit dropdown.
+4. Click the deposit button.
+5. Wait for the transaction to complete.
+
+WHY?
+
+The deposit function is payable, so it accepts Ether and adds the deposited amount to the balance.
+
+EXPECTED RESULT:
+The deposited amount is added to the smart contract balance.
+
+### STEP 6: SHOW BALANCE
+
+1. Click showBalance.
+2. Observe the displayed balance.
+
+EXPECTED RESULT:
+If 2 Ether was deposited, the balance will be:
+
+2000000000000000000 Wei
+
+Note: 1 Ether = 10^18 Wei. Solidity stores the balance in Wei.
+
+### STEP 7: WITHDRAW MONEY
+
+1. Find the withdraw function.
+2. Enter 1000000000000000000 as the amount.
+3. Click withdraw.
+4. Wait for the transaction to complete.
+5. Click showBalance again.
+
+WHY?
+
+The withdraw function checks the available balance, subtracts the requested amount and transfers Ether to the caller.
+
+EXPECTED RESULT:
+If 2 Ether was deposited and 1 Ether was withdrawn, the remaining balance will be:
+
+1000000000000000000 Wei
+
+### STEP 8: VERIFY THE RESULT
+
+1. Click showBalance again.
+2. Check the updated balance.
+3. Observe the transaction status in Remix.
+
+### IMPORTANT CONCEPTS:
+
+1. Solidity: Programming language used to write smart contracts.
+2. Smart Contract: Program stored and executed on a blockchain.
+3. Remix IDE: Online tool for writing, compiling and deploying Solidity code.
+4. Compiler: Converts Solidity code into executable bytecode.
+5. Deploy: Publishes the contract to the selected blockchain environment.
+6. Payable: Allows a function to receive Ether.
+7. msg.value: Amount of Ether sent with a transaction, represented in Wei.
+8. msg.sender: Address of the account calling the function.
+9. require(): Checks a condition and stops execution if it is false.
+10. Wei: Smallest unit of Ether.
+11. view: Allows a function to read data without modifying blockchain state.
+
+### RESULT:
+Successfully created and deployed a BankAccount smart contract using Solidity in Remix IDE and performed deposit, withdraw and show balance operations.
+
+### VIVA QUESTIONS:
+
+Q1. What is Solidity?
+Ans: Solidity is a programming language used to write Ethereum smart contracts.
+
+Q2. What is a smart contract?
+Ans: A smart contract is a program stored on a blockchain that executes automatically.
+
+Q3. What is Remix IDE?
+Ans: Remix IDE is an online tool used to write, compile and deploy Solidity contracts.
+
+Q4. What is the purpose of the deposit function?
+Ans: It adds Ether to the smart contract balance.
+
+Q5. What is the purpose of the withdraw function?
+Ans: It transfers Ether from the smart contract to the caller.
+
+Q6. What is the purpose of showBalance?
+Ans: It displays the current stored balance.
+
+Q7. What does payable mean?
+Ans: Payable allows a function to receive Ether.
+
+Q8. What is msg.value?
+Ans: It represents the amount of Ether sent with a transaction, in Wei.
+
+Q9. What is msg.sender?
+Ans: It represents the address of the account calling the function.
+
+Q10. What is require()?
+Ans: It checks a condition and stops execution if the condition is false.
+
+Q11. What is the difference between compile and deploy?
+Ans: Compile converts the code into bytecode. Deploy places the contract on the selected blockchain.
+
+Q12. What is Wei?
+Ans: Wei is the smallest unit of Ether. One Ether equals 10^18 Wei.
+
+Q13. What is Remix VM?
+Ans: Remix VM is a simulated blockchain environment used to test smart contracts.
+
+### IMPORTANT:
+- Select Remix VM (Cancun) for the practice demonstration described above.
+- Enter the deposit amount in the VALUE field and select Ether.
+- The withdraw function expects the amount in Wei, not Ether.
+- Do not enter an amount greater than the available balance.
+- A successful compilation does not mean the contract has been deployed; both steps are required.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+# GROUP C – BLOCKCHAIN TECHNOLOGY
+
+## PRACTICAL 4: WRITE A SOLIDITY PROGRAM TO CREATE STUDENT DATA USING STRUCTURES, ARRAYS AND FALLBACK. DEPLOY IT ON ETHEREUM AND OBSERVE TRANSACTION FEE AND GAS VALUES.
+
+### AIM:
+To create a Student Data smart contract using Structures, Arrays and Fallback in Solidity, deploy it on Ethereum and observe transaction fee and Gas values.
+
+### SOFTWARE REQUIRED:
+1. Google Chrome
+2. Remix IDE
+3. MetaMask Wallet
+4. Sepolia Test Network
+5. Sepolia Etherscan
+
+### CONCEPT:
+
+Solidity is a programming language used to create Ethereum smart contracts.
+
+Structure (struct) is used to group different types of data into one record.
+
+Array is used to store multiple records of the same structure.
+
+Fallback is a special function that executes when a call does not match any other function. It can be payable to receive Ether.
+
+Gas is the computational work required to execute a transaction.
+
+Gas Used is the actual amount of gas consumed by a transaction.
+
+Transaction Fee is the amount paid for processing a transaction.
+
+### STEP 1: OPEN REMIX IDE
+
+1. Open Google Chrome.
+2. Visit https://remix.ethereum.org/
+3. Open the File Explorer.
+4. Open the contracts folder.
+5. Click New File.
+6. Create a file named StudentData.sol.
+
+WHY?
+Remix IDE is used to write, compile and deploy Solidity smart contracts.
+
+### STEP 2: WRITE THE SOLIDITY CODE
+
+Copy and paste the complete code into StudentData.sol.
+
+```solidity
+// SPDX-License-Identifier: MIT
+// Specifies the license of the smart contract.
+
+pragma solidity ^0.8.0;
+// Specifies the Solidity compiler version.
+
+contract StudentData {
+    // Creates a smart contract named StudentData.
+
+    struct Student {
+        // Structure groups the details of one student.
+        uint id;
+        string name;
+        uint marks;
+    }
+
+    Student[] public students;
+    // Creates an array to store multiple student records.
+    // Public allows Remix to provide automatic access to stored records.
+
+    function addStudent(uint _id, string memory _name, uint _marks) public {
+        // Function accepts the student's ID, name and marks.
+        // memory temporarily stores the string while the function executes.
+
+        students.push(Student(_id, _name, _marks));
+        // Adds a new student record to the students array.
+    }
+
+    function getStudent(uint index) public view returns (uint, string memory, uint) {
+        // Reads student details using the array index.
+        // view means this function reads data without changing blockchain storage.
+
+        Student memory s = students[index];
+        // Gets the student record at the given index and stores it temporarily.
+
+        return (s.id, s.name, s.marks);
+        // Returns the student's ID, name and marks.
+    }
+
+    fallback() external payable {
+        // Executes when a call does not match another function.
+        // payable allows this function to receive Ether.
+    }
+}
+```
+
+### STEP 3: COMPILE THE SMART CONTRACT
+
+1. Click the Solidity Compiler icon on the left side.
+2. Select compiler version 0.8.x.
+3. Make sure it matches the pragma statement.
+4. Click Compile StudentData.sol.
+5. A green tick indicates successful compilation.
+
+WHY DO WE COMPILE?
+
+Compilation converts Solidity code into bytecode that the blockchain can execute.
+
+### STEP 4: CONNECT METAMASK TO REMIX
+
+1. Open MetaMask.
+2. Select the Sepolia Test Network.
+3. Make sure the wallet has Sepolia test Ether.
+4. Return to Remix IDE.
+5. Click Deploy & Run Transactions.
+6. Select Injected Provider - MetaMask under Environment.
+7. Approve the connection request in MetaMask.
+8. Check that Remix is connected to the Sepolia network.
+
+WHY?
+
+MetaMask connects Remix to the Ethereum test network and allows us to approve blockchain transactions.
+
+### STEP 5: DEPLOY THE SMART CONTRACT
+
+1. Select StudentData from the contract dropdown.
+2. Click Deploy.
+3. MetaMask displays a transaction confirmation.
+4. Review the estimated gas fee.
+5. Click Confirm.
+6. Wait for the deployment transaction to be confirmed.
+7. The contract appears under Deployed Contracts.
+
+WHY DO WE DEPLOY?
+
+Deployment stores the smart contract on the selected blockchain network so that its functions can be used.
+
+### STEP 6: ADD STUDENT DATA
+
+1. Under Deployed Contracts, find the addStudent function.
+2. Enter the following values:
+
+   _id = 1
+
+   _name = "Vedika"
+
+   _marks = 90
+
+3. Click addStudent.
+4. MetaMask asks for transaction confirmation.
+5. Confirm the transaction.
+6. Wait until the transaction is successful.
+
+WHY?
+
+The addStudent function creates a student record and stores it in the students array.
+
+### STEP 7: RETRIEVE STUDENT DATA
+
+1. Find the getStudent function.
+2. Enter index 0.
+3. Click getStudent.
+4. Observe the returned student details.
+
+EXPECTED OUTPUT:
+
+1, Vedika, 90
+
+WHY INDEX 0?
+
+Array indexing starts from 0, so the first student is stored at index 0.
+
+### STEP 8: OBSERVE STRUCTURES AND ARRAYS
+
+1. Open the students public array getter.
+2. Enter index 0.
+3. Click students.
+4. Observe the stored student details.
+
+WHY?
+
+The structure stores the ID, name and marks together, while the array stores multiple student records.
+
+### STEP 9: OBSERVE FALLBACK FUNCTION
+
+1. The fallback function is included in the smart contract.
+2. It executes when a call does not match any other function.
+3. It is marked payable, so it can receive Ether when called with unmatched data or an empty call.
+
+WHY?
+
+Fallback handles calls that do not match the contract's other functions.
+
+### STEP 10: OBSERVE GAS AND TRANSACTION FEE
+
+1. Find the successful addStudent transaction in Remix's transaction history or MetaMask activity.
+2. Open the transaction details.
+3. If available, open the transaction on Sepolia Etherscan.
+4. Observe the following:
+   - Transaction Hash
+   - Transaction Status
+   - Gas Used
+   - Gas Price
+   - Transaction Fee
+
+5. Note the actual values displayed for your transaction.
+
+WHY?
+
+Every blockchain transaction requires computational work. Gas measures this work, and the transaction fee is paid for processing it.
+
+### TRANSACTION FEE FORMULA:
+
+Transaction Fee = Gas Used × Effective Gas Price
+
+Gas Used means the amount of computational work consumed.
+
+Gas Price means the amount paid per unit of gas.
+
+Transaction Fee means the total fee paid for the transaction.
+
+### IMPORTANT CONCEPTS:
+
+1. Solidity: Programming language used to write smart contracts.
+2. Smart Contract: Program stored on a blockchain.
+3. Struct: Groups different data fields into one record.
+4. Array: Stores multiple student records.
+5. Fallback: Special function that handles unmatched calls.
+6. External: Allows a function to be called from outside the contract.
+7. Payable: Allows a function to receive Ether.
+8. Memory: Temporary storage used while a function executes.
+9. Gas: Computational work required for a transaction.
+10. Gas Used: Actual gas consumed by a transaction.
+11. Transaction Fee: Fee paid for processing a transaction.
+12. Deploy: Publishes the smart contract to the selected blockchain.
+
+### RESULT:
+Successfully created and deployed a Student Data smart contract using Solidity with Structures, Arrays and Fallback. Added and retrieved student records and observed the gas values and transaction fee.
+
+### VIVA QUESTIONS:
+
+Q1. What is Solidity?
+Ans: Solidity is a programming language used to write Ethereum smart contracts.
+
+Q2. What is a structure?
+Ans: A structure groups different types of data into one record.
+
+Q3. What is an array?
+Ans: An array stores multiple values or records.
+
+Q4. What is fallback?
+Ans: Fallback is a special function that executes when a call does not match another function.
+
+Q5. What is the use of payable?
+Ans: Payable allows a function to receive Ether.
+
+Q6. What is memory?
+Ans: Memory is temporary storage used during function execution.
+
+Q7. What is Gas?
+Ans: Gas measures the computational work required to execute a transaction.
+
+Q8. What is Gas Used?
+Ans: It is the actual amount of gas consumed by a transaction.
+
+Q9. What is a Transaction Fee?
+Ans: It is the fee paid for processing a blockchain transaction.
+
+Q10. What is the purpose of addStudent?
+Ans: It adds a new student record to the array.
+
+Q11. What is the purpose of getStudent?
+Ans: It retrieves student details using the array index.
+
+Q12. Why is the first array index 0?
+Ans: Because array indexing starts from zero.
+
+Q13. What is the difference between memory and storage?
+Ans: Memory is temporary, while storage keeps data on the blockchain.
+
+Q14. What is the difference between Gas and Gas Fee?
+Ans: Gas measures computational work, while Gas Fee is the amount paid for that work.
+
+Q15. What is Sepolia?
+Ans: Sepolia is an Ethereum test network used for practice.
+
+### IMPORTANT:
+- Use the Sepolia test network when observing actual test-network transaction fees.
+- Remix VM is a simulated environment and does not provide an actual Sepolia transaction fee.
+- addStudent changes blockchain data and creates a transaction.
+- getStudent is a read-only function and does not require a paid transaction.
+- The students array starts at index 0.
+- Record the actual Gas Used and Transaction Fee displayed by your transaction. Do not write assumed values.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+# GROUP C – BLOCKCHAIN TECHNOLOGY
+
+## PRACTICAL 5: WRITE A SURVEY REPORT ON TYPES OF BLOCKCHAINS AND THEIR REAL-TIME USE CASES
+
+### AIM:
+To study different types of blockchains and their real-time applications.
+
+### INTRODUCTION:
+
+Blockchain is a distributed digital ledger used to store information and transactions securely.
+
+Data is stored in blocks that are connected to each other. Once recorded, data is difficult to modify.
+
+Blockchain provides transparency, security and decentralization.
+
+### TYPES OF BLOCKCHAINS:
+
+There are four main types of blockchains:
+
+### 1. PUBLIC BLOCKCHAIN
+
+- A public blockchain is open to everyone.
+- Anyone can join the network, view transactions and participate according to network rules.
+- It is decentralized and transparent.
+- Examples: Bitcoin and Ethereum.
+
+REAL-TIME USE CASES:
+1. Cryptocurrency transactions.
+2. Decentralized applications.
+3. Digital payments.
+4. Smart contracts.
+
+### 2. PRIVATE BLOCKCHAIN
+
+- A private blockchain is controlled by a single organization.
+- Only authorized users can access the network.
+- It provides controlled access and privacy.
+- Example: A company's private blockchain network.
+
+REAL-TIME USE CASES:
+1. Company record management.
+2. Internal financial transactions.
+3. Supply chain management.
+4. Secure business data sharing.
+
+### 3. CONSORTIUM BLOCKCHAIN
+
+- A consortium blockchain is managed by multiple selected organizations.
+- Only authorized organizations can participate.
+- It allows organizations to share information securely.
+- Example: A blockchain network shared by multiple banks.
+
+REAL-TIME USE CASES:
+1. Banking and financial services.
+2. Supply chain tracking.
+3. Healthcare data sharing.
+4. Inter-organizational business transactions.
+
+### 4. HYBRID BLOCKCHAIN
+
+- A hybrid blockchain combines features of public and private blockchains.
+- Some information is private, while selected information can be made publicly accessible.
+- It provides both privacy and transparency.
+
+REAL-TIME USE CASES:
+1. Healthcare record management.
+2. Government services.
+3. Real estate management.
+4. Business and supply chain management.
+
+### COMPARISON OF BLOCKCHAIN TYPES:
+
+1. Public Blockchain:
+   - Access: Open to everyone.
+   - Control: Decentralized.
+   - Example: Bitcoin and Ethereum.
+
+2. Private Blockchain:
+   - Access: Authorized users only.
+   - Control: Single organization.
+   - Example: Company record management.
+
+3. Consortium Blockchain:
+   - Access: Selected organizations.
+   - Control: Multiple organizations.
+   - Example: Banking networks.
+
+4. Hybrid Blockchain:
+   - Access: Combination of public and private access.
+   - Control: Depends on the network design.
+   - Example: Healthcare and government systems.
+
+### REAL-TIME APPLICATIONS OF BLOCKCHAIN:
+
+1. BANKING:
+   Blockchain helps record financial transactions securely and transparently.
+
+2. HEALTHCARE:
+   It helps maintain and share medical records securely between authorized users.
+
+3. SUPPLY CHAIN:
+   It helps track products from manufacturers to customers.
+
+4. VOTING:
+   Blockchain can be used to maintain transparent and tamper-resistant voting records.
+
+5. EDUCATION:
+   It can store and verify educational certificates and academic records.
+
+6. REAL ESTATE:
+   It can maintain property ownership and transaction records.
+
+7. CRYPTOCURRENCY:
+   It supports digital currencies such as Bitcoin and Ether.
+
+### ADVANTAGES OF BLOCKCHAIN:
+
+1. Transparency: Transactions can be verified by permitted network participants.
+2. Security: Cryptographic techniques help protect stored data.
+3. Decentralization: Public blockchain networks do not depend on one central authority.
+4. Traceability: Transactions can be tracked.
+5. Data Integrity: Recorded information is difficult to modify without detection.
+
+### LIMITATIONS OF BLOCKCHAIN:
+
+1. Some blockchain networks have high transaction fees.
+2. Certain networks have slower transaction processing.
+3. Implementation can be complex.
+4. Some blockchain systems consume significant energy.
+5. Privacy and regulatory requirements can create challenges.
+
+### RESULT:
+Successfully studied the four main types of blockchains: Public, Private, Consortium and Hybrid, along with their features, advantages, limitations and real-time applications.
+
+### VIVA QUESTIONS:
+
+Q1. What is Blockchain?
+Ans: Blockchain is a distributed digital ledger that stores information in connected blocks.
+
+Q2. What are the four types of Blockchain?
+Ans: Public, Private, Consortium and Hybrid.
+
+Q3. What is Public Blockchain?
+Ans: A blockchain that is open to everyone.
+
+Q4. Give examples of Public Blockchain.
+Ans: Bitcoin and Ethereum.
+
+Q5. What is Private Blockchain?
+Ans: A blockchain controlled by a single organization with restricted access.
+
+Q6. What is Consortium Blockchain?
+Ans: A blockchain managed by multiple selected organizations.
+
+Q7. What is Hybrid Blockchain?
+Ans: A blockchain that combines public and private blockchain features.
+
+Q8. What is the difference between Public and Private Blockchain?
+Ans: Public blockchain is open to everyone, while private blockchain allows only authorized users.
+
+Q9. What are the applications of Blockchain?
+Ans: Banking, healthcare, supply chain, voting, education and real estate.
+
+Q10. What is the main advantage of Blockchain?
+Ans: It provides security, transparency and data integrity.
+
+Q11. What is Decentralization?
+Ans: Decentralization means control is distributed among network participants instead of one central authority.
+
+Q12. What is a Smart Contract?
+Ans: A smart contract is a program stored on a blockchain that executes automatically when conditions are met.
+
+Q13. What is Bitcoin?
+Ans: Bitcoin is a digital cryptocurrency that operates on a public blockchain.
+
+Q14. What is Ethereum?
+Ans: Ethereum is a blockchain platform that supports smart contracts and decentralized applications.
+
+Q15. Can blockchain data be changed?
+Ans: Recorded blockchain data is difficult to modify without detection.
